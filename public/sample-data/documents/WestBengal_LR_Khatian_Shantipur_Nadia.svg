@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100" width="100%" height="100%">
+  <defs>
+    <pattern id="paper-wb" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="#fcfaf2"/>
+      <path d="M0 0h100v100H0z" fill="none" stroke="#f0ece1" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="1100" fill="url(#paper-wb)"/>
+  <rect x="25" y="25" width="750" height="1050" fill="none" stroke="#b45309" stroke-width="2"/>
+  <rect x="35" y="35" width="730" height="1030" fill="none" stroke="#fde68a" stroke-width="1"/>
+
+  <!-- Watermark: DEMO DATA -->
+  <text x="400" y="550" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="64" font-weight="900" fill="#fed7aa" transform="rotate(-30, 400, 550)" opacity="0.35">DEMO DATA • SIMULATED</text>
+
+  <!-- Header -->
+  <circle cx="400" cy="95" r="35" fill="none" stroke="#b45309" stroke-width="2.5"/>
+  <text x="400" y="85" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#b45309">GOVERNMENT OF WEST BENGAL</text>
+  <text x="400" y="100" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="800" fill="#b45309">পশ্চিমবঙ্গ সরকার</text>
+  <text x="400" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" fill="#b45309">LAND &amp; LAND REFORMS DEPARTMENT</text>
+
+  <!-- Document Header -->
+  <text x="400" y="170" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="800" fill="#0f172a">LR KHATIAN &amp; PORCHA RECORD (খতিয়ান ও পরচা)</text>
+  <text x="400" y="195" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#475569">MOUZA: SHANTIPUR • DISTRICT: NADIA (নদীয়া)</text>
+  <line x1="80" y1="210" x2="720" y2="210" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <!-- Metadata Section -->
+  <rect x="80" y="230" width="640" height="70" fill="#fffbeb" stroke="#fde68a" rx="4"/>
+  <text x="100" y="255" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#334155">Doc Ref: <tspan fill="#b45309">WB-LR-NAD-2024-512</tspan></text>
+  <text x="420" y="255" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#334155">Language: <tspan fill="#0f172a">Bengali (বাংলা) / English</tspan></text>
+  <text x="100" y="280" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#334155">Dag / Survey No: <tspan fill="#0f172a">Dag 512/3 (দাগ ৫১২/৩)</tspan></text>
+  <text x="420" y="280" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#334155">Status: <tspan fill="#d97706">NEEDS HUMAN REVIEW</tspan></text>
+
+  <!-- Table of Extract -->
+  <rect x="80" y="325" width="640" height="380" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+  
+  <rect x="80" y="325" width="640" height="35" fill="#fef3c7"/>
+  <line x1="80" y1="360" x2="720" y2="360" stroke="#94a3b8"/>
+  <text x="100" y="348" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#1e293b">Porcha Cadastral Column</text>
+  <text x="360" y="348" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#1e293b">Extracted Record Entry</text>
+  <text x="600" y="348" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#1e293b">Verification Tag</text>
+  
+  <line x1="340" y1="325" x2="340" y2="705" stroke="#cbd5e1"/>
+  <line x1="580" y1="325" x2="580" y2="705" stroke="#cbd5e1"/>
+
+  <!-- Row 1 -->
+  <text x="100" y="390" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#475569">Primary Raiyat (রায়ত)</text>
+  <text x="360" y="390" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#0f172a">Pravir Kumar Roy (প্রবীর কুমার রায়)</text>
+  <text x="600" y="390" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#16a34a">96% Confident</text>
+  <line x1="80" y1="410" x2="720" y2="410" stroke="#f1f5f9"/>
+
+  <!-- Row 2 -->
+  <text x="100" y="440" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#475569">Father's Name (পিতা)</text>
+  <text x="360" y="440" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#0f172a">Late Bimalendu Roy (বিমলেন্দু রায়)</text>
+  <text x="600" y="440" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#16a34a">91% Confident</text>
+  <line x1="80" y1="460" x2="720" y2="460" stroke="#f1f5f9"/>
+
+  <!-- Row 3: Hand-smudged Plot Area -->
+  <text x="100" y="490" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#475569">Plot Area (জমির পরিমাণ)</text>
+  <text x="360" y="490" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#dc2626">1.72 Acres [Ink Smudge]</text>
+  <text x="600" y="490" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="bold" fill="#dc2626">54% (Low Conf)</text>
+  <line x1="80" y1="510" x2="720" y2="510" stroke="#f1f5f9"/>
+
+  <!-- Row 4 -->
+  <text x="100" y="540" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#475569">Land Classification</text>
+  <text x="360" y="540" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#0f172a">Shali / Agricultural (শালি জমি)</text>
+  <text x="600" y="540" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#16a34a">88% Confident</text>
+  <line x1="80" y1="560" x2="720" y2="560" stroke="#f1f5f9"/>
+
+  <!-- Row 5 -->
+  <text x="100" y="590" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#475569">Khatian Number (খতিয়ান)</text>
+  <text x="360" y="590" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#0f172a">789 / 12</text>
+  <text x="600" y="590" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#16a34a">93% Confident</text>
+  <line x1="80" y1="610" x2="720" y2="610" stroke="#f1f5f9"/>
+
+  <!-- Row 6 -->
+  <text x="100" y="640" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#475569">Revenue Cess / Khajna</text>
+  <text x="360" y="640" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#0f172a">Paid through Settlement Year 2023-24</text>
+  <text x="600" y="640" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#64748b">Verified</text>
+  <line x1="80" y1="660" x2="720" y2="660" stroke="#f1f5f9"/>
+
+  <!-- Official Stamps & Signatures -->
+  <g transform="translate(100, 750)">
+    <circle cx="80" cy="80" r="55" fill="none" stroke="#b45309" stroke-width="2" stroke-dasharray="4,2"/>
+    <text x="80" y="65" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#b45309">REVENUE INSPECTOR</text>
+    <text x="80" y="82" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="800" fill="#b45309">BLOCK: SHANTIPUR</text>
+    <text x="80" y="98" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="600" fill="#b45309">NADIA, WB</text>
+  </g>
+
+  <g transform="translate(480, 750)">
+    <path d="M20 70 Q 60 20, 110 65 T 180 50" fill="none" stroke="#1e293b" stroke-width="2"/>
+    <line x1="10" y1="90" x2="200" y2="90" stroke="#475569" stroke-width="1"/>
+    <text x="105" y="110" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#0f172a">BL&amp;LRO Officer</text>
+    <text x="105" y="125" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="500" fill="#64748b">Settlement Officer</text>
+  </g>
+
+  <!-- Footer Notice -->
+  <text x="400" y="1010" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94a3b8">INTELLIGENT LAND RECORD DIGITIZATION PROTOTYPE • DEPT OF LAND RESOURCES (DoLR) • DEMO DATA</text>
+  <text x="400" y="1030" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#94a3b8">Doc SHA256: 3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d</text>
+</svg>

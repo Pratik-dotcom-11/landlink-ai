@@ -1,0 +1,26 @@
+import logging
+import sys
+from app.config import settings
+
+
+def setup_logging() -> logging.Logger:
+    """
+    Configures structured standard logging for the application.
+    """
+    log_level = getattr(logging, settings.LOG_LEVEL.upper(), logging.INFO)
+    
+    # Configure root logger
+    logging.basicConfig(
+        level=log_level,
+        format="%(asctime)s | %(levelname)-8s | %(name)s:%(funcName)s:%(lineno)d - %(message)s",
+        handlers=[
+            logging.StreamHandler(sys.stdout)
+        ]
+    )
+    
+    logger = logging.getLogger("landrecords")
+    logger.setLevel(log_level)
+    return logger
+
+
+logger = setup_logging()

@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100" width="100%" height="100%">
+  <defs>
+    <pattern id="paper-mp" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="#f8fafc"/>
+      <path d="M0 0h100v100H0z" fill="none" stroke="#e2e8f0" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="1100" fill="url(#paper-mp)"/>
+  <rect x="25" y="25" width="750" height="1050" fill="none" stroke="#1e3a8a" stroke-width="2"/>
+  <rect x="35" y="35" width="730" height="1030" fill="none" stroke="#93c5fd" stroke-width="1"/>
+
+  <!-- Watermark: DEMO DATA -->
+  <text x="400" y="550" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="64" font-weight="900" fill="#bfdbfe" transform="rotate(-30, 400, 550)" opacity="0.4">DEMO DATA • SIMULATED</text>
+
+  <!-- Header -->
+  <circle cx="400" cy="95" r="35" fill="none" stroke="#1e3a8a" stroke-width="2.5"/>
+  <text x="400" y="85" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#1e3a8a">मध्यप्रदेश शासन</text>
+  <text x="400" y="100" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="800" fill="#1e3a8a">सत्यमेव जयते</text>
+  <text x="400" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" fill="#1e3a8a">राजस्व विभाग • भू-अभिलेख</text>
+
+  <!-- Document Header -->
+  <text x="400" y="170" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="800" fill="#0f172a">खसरा - खतौनी अधिकार अभिलेख (फॉर्म पी-II)</text>
+  <text x="400" y="195" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#475569">तहसील: भीकनगांव • जिला: खरगोन (मध्यप्रदेश)</text>
+  <line x1="80" y1="210" x2="720" y2="210" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <!-- Metadata Section -->
+  <rect x="80" y="230" width="640" height="70" fill="#eff6ff" stroke="#bfdbfe" rx="4"/>
+  <text x="100" y="255" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#334155">Doc Ref: <tspan fill="#1e3a8a">MP-BHULEKH-KGN-2024</tspan></text>
+  <text x="420" y="255" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#334155">भाषा (Script): <tspan fill="#0f172a">Hindi Devanagari (हिन्दी)</tspan></text>
+  <text x="100" y="280" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#334155">खसरा क्रमांक: <tspan fill="#0f172a">184/2</tspan></text>
+  <text x="420" y="280" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#334155">डिजिटल अभिलेख: <tspan fill="#16a34a">प्रमाणित</tspan></text>
+
+  <!-- Table of Extract -->
+  <rect x="80" y="325" width="640" height="380" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+  
+  <rect x="80" y="325" width="640" height="35" fill="#dbeafe"/>
+  <line x1="80" y1="360" x2="720" y2="360" stroke="#94a3b8"/>
+  <text x="100" y="348" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#1e293b">विवरण (Field Description)</text>
+  <text x="360" y="348" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#1e293b">अभिलेख प्रविष्टि (Entry)</text>
+  <text x="600" y="348" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#1e293b">कैफियत / टीप</text>
+  
+  <line x1="340" y1="325" x2="340" y2="705" stroke="#cbd5e1"/>
+  <line x1="580" y1="325" x2="580" y2="705" stroke="#cbd5e1"/>
+
+  <!-- Row 1 -->
+  <text x="100" y="390" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#475569">भूमिस्वामी का नाम (Owner)</text>
+  <text x="360" y="390" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#0f172a">रमेश चन्द्र पाटीदार (Ramesh Chandra)</text>
+  <text x="600" y="390" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#16a34a">अंश: पूर्ण</text>
+  <line x1="80" y1="410" x2="720" y2="410" stroke="#f1f5f9"/>
+
+  <!-- Row 2 -->
+  <text x="100" y="440" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#475569">पिता / पति का नाम</text>
+  <text x="360" y="440" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#0f172a">स्व. हीरालाल पाटीदार</text>
+  <text x="600" y="440" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#64748b">वैधानिक वारिस</text>
+  <line x1="80" y1="460" x2="720" y2="460" stroke="#f1f5f9"/>
+
+  <!-- Row 3 -->
+  <text x="100" y="490" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#475569">रकबा / क्षेत्रफल (Area)</text>
+  <text x="360" y="490" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#0f172a">4.57 एकड़ (1.85 हे.)</text>
+  <text x="600" y="490" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#64748b">सर्वे अनुसार</text>
+  <line x1="80" y1="510" x2="720" y2="510" stroke="#f1f5f9"/>
+
+  <!-- Row 4 -->
+  <text x="100" y="540" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#475569">भूमि का प्रकार</text>
+  <text x="360" y="540" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#0f172a">कृषि - सिंचित द्विफसली</text>
+  <text x="600" y="540" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#64748b">लगानी दर 4.80 रु</text>
+  <line x1="80" y1="560" x2="720" y2="560" stroke="#f1f5f9"/>
+
+  <!-- Row 5 -->
+  <text x="100" y="590" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#475569">नामांतरण पंजी क्रमांक</text>
+  <text x="360" y="590" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#0f172a">पंजी क्रमांक 45/2018-19</text>
+  <text x="600" y="590" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#64748b">तहसीलदार आदेश</text>
+  <line x1="80" y1="610" x2="720" y2="610" stroke="#f1f5f9"/>
+
+  <!-- Row 6 -->
+  <text x="100" y="640" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#475569">खाता संख्या (Khata)</text>
+  <text x="360" y="640" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#0f172a">खाता क्रमांक 112</text>
+  <text x="600" y="640" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#64748b">अभिलेख शुद्ध</text>
+  <line x1="80" y1="660" x2="720" y2="660" stroke="#f1f5f9"/>
+
+  <!-- Official Stamps & Signatures -->
+  <g transform="translate(100, 750)">
+    <circle cx="80" cy="80" r="55" fill="none" stroke="#1e3a8a" stroke-width="2" stroke-dasharray="4,2"/>
+    <text x="80" y="65" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#1e3a8a">तहसीलदार कार्यालय</text>
+    <text x="80" y="82" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="800" fill="#1e3a8a">भीकनगांव (खरगोन)</text>
+    <text x="80" y="98" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="600" fill="#1e3a8a">मध्यप्रदेश</text>
+  </g>
+
+  <g transform="translate(480, 750)">
+    <path d="M20 70 Q 60 20, 110 65 T 180 50" fill="none" stroke="#1e293b" stroke-width="2"/>
+    <line x1="10" y1="90" x2="200" y2="90" stroke="#475569" stroke-width="1"/>
+    <text x="105" y="110" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#0f172a">पटवारी / राजस्व निरीक्षक</text>
+    <text x="105" y="125" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="500" fill="#64748b">हल्का क्रमांक 14</text>
+  </g>
+
+  <!-- Footer Notice -->
+  <text x="400" y="1010" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94a3b8">INTELLIGENT LAND RECORD DIGITIZATION PROTOTYPE • DEPT OF LAND RESOURCES (DoLR) • DEMO DATA</text>
+  <text x="400" y="1030" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#94a3b8">Doc SHA256: 9e8d7c6b5a4f3e2d1c0b9a8f7e6d5c4b3a2f1e0d9c8b7a6f5e4d3c2b1a0f9e8d</text>
+</svg>

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100" width="100%" height="100%">
+  <defs>
+    <pattern id="paper" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="#fdfbf7"/>
+      <path d="M0 0h100v100H0z" fill="none" stroke="#f3efe6" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <!-- Parchment Paper Background -->
+  <rect width="800" height="1100" fill="url(#paper)"/>
+  <rect x="25" y="25" width="750" height="1050" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="35" y="35" width="730" height="1030" fill="none" stroke="#cbd5e1" stroke-width="1"/>
+
+  <!-- Watermark: DEMO DATA -->
+  <text x="400" y="550" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="64" font-weight="900" fill="#e2e8f0" transform="rotate(-30, 400, 550)" opacity="0.4">DEMO DATA • SIMULATED</text>
+
+  <!-- Header & Government Emblem Simulation -->
+  <circle cx="400" cy="95" r="35" fill="none" stroke="#047857" stroke-width="2.5"/>
+  <text x="400" y="85" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#047857">GOVERNMENT OF INDIA</text>
+  <text x="400" y="100" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="800" fill="#047857">सत्यमेव जयते</text>
+  <text x="400" y="115" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" fill="#047857">DEPARTMENT OF LAND RESOURCES</text>
+
+  <!-- Document Header -->
+  <text x="400" y="170" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="800" fill="#0f172a">7/12 EXTRACT (RECORD OF RIGHTS)</text>
+  <text x="400" y="195" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#475569">GOVERNMENT OF MAHARASHTRA • REVENUE DEPARTMENT</text>
+  <line x1="80" y1="210" x2="720" y2="210" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <!-- Metadata Section -->
+  <rect x="80" y="230" width="640" height="70" fill="#f8fafc" stroke="#e2e8f0" rx="4"/>
+  <text x="100" y="255" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#334155">Doc Ref: <tspan fill="#0284c7">DOLR-MH-2024-REC-1001</tspan></text>
+  <text x="420" y="255" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#334155">Language: <tspan fill="#0f172a">English / Marathi</tspan></text>
+  <text x="100" y="280" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#334155">Survey / Gat No: <tspan fill="#0f172a">214/1A</tspan></text>
+  <text x="420" y="280" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#334155">Digital Seal: <tspan fill="#16a34a">VERIFIED HASH</tspan></text>
+
+  <!-- Table of Extract -->
+  <rect x="80" y="325" width="640" height="380" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+  
+  <!-- Table Header -->
+  <rect x="80" y="325" width="640" height="35" fill="#f1f5f9"/>
+  <line x1="80" y1="360" x2="720" y2="360" stroke="#94a3b8"/>
+  <text x="100" y="348" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#1e293b">Cadastral Field Description</text>
+  <text x="360" y="348" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#1e293b">Official Record Entry</text>
+  <text x="600" y="348" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#1e293b">Remarks</text>
+  
+  <!-- Column Lines -->
+  <line x1="340" y1="325" x2="340" y2="705" stroke="#cbd5e1"/>
+  <line x1="580" y1="325" x2="580" y2="705" stroke="#cbd5e1"/>
+
+  <!-- Rows -->
+  <text x="100" y="390" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#475569">Primary Landowner</text>
+  <text x="360" y="390" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#0f172a">Rajesh Vasantrao Deshmukh</text>
+  <text x="600" y="390" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#64748b">Verified Raiyat</text>
+  <line x1="80" y1="410" x2="720" y2="410" stroke="#f1f5f9"/>
+
+  <text x="100" y="440" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#475569">Cadastral Survey / Khasra</text>
+  <text x="360" y="440" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#0f172a">214/1A</text>
+  <text x="600" y="440" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#64748b">Village Map Plot</text>
+  <line x1="80" y1="460" x2="720" y2="460" stroke="#f1f5f9"/>
+
+  <text x="100" y="490" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#475569">Plot Area / Measurement</text>
+  <text x="360" y="490" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#0f172a">7.90 Acres (3.20 Ha)</text>
+  <text x="600" y="490" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#64748b">Surveyed Boundary</text>
+  <line x1="80" y1="510" x2="720" y2="510" stroke="#f1f5f9"/>
+
+  <text x="100" y="540" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#475569">Land Classification</text>
+  <text x="360" y="540" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#0f172a">Agricultural (Class-I Irrigated)</text>
+  <text x="600" y="540" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#64748b">Standard Revenue</text>
+  <line x1="80" y1="560" x2="720" y2="560" stroke="#f1f5f9"/>
+
+  <text x="100" y="590" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#475569">Tenure / Ownership Type</text>
+  <text x="360" y="590" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#0f172a">Individual Freehold (Bhumi-Swami)</text>
+  <text x="600" y="590" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#64748b">Clear Title</text>
+  <line x1="80" y1="610" x2="720" y2="610" stroke="#f1f5f9"/>
+
+  <text x="100" y="640" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#475569">Namantaran / Mutation</text>
+  <text x="360" y="640" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#0f172a">Ferfar 7812 dt 05/03/2019</text>
+  <text x="600" y="640" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#64748b">Gazetted Entry</text>
+  <line x1="80" y1="660" x2="720" y2="660" stroke="#f1f5f9"/>
+
+  <!-- Official Stamps & Signatures -->
+  <g transform="translate(100, 750)">
+    <circle cx="80" cy="80" r="55" fill="none" stroke="#047857" stroke-width="2" stroke-dasharray="4,2"/>
+    <text x="80" y="65" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#047857">SEAL OF TEHSILDAR</text>
+    <text x="80" y="82" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="800" fill="#047857">HAVELI, PUNE</text>
+    <text x="80" y="98" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="600" fill="#047857">MAHARASHTRA</text>
+  </g>
+
+  <g transform="translate(480, 750)">
+    <path d="M20 70 Q 60 20, 110 65 T 180 50" fill="none" stroke="#1e293b" stroke-width="2"/>
+    <line x1="10" y1="90" x2="200" y2="90" stroke="#475569" stroke-width="1"/>
+    <text x="105" y="110" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#0f172a">Sub-Divisional Magistrate</text>
+    <text x="105" y="125" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="500" fill="#64748b">Digital Verification Authority</text>
+  </g>
+
+  <!-- Footer Notice -->
+  <text x="400" y="1010" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94a3b8">INTELLIGENT LAND RECORD DIGITIZATION PROTOTYPE • DEPT OF LAND RESOURCES (DoLR) • DEMO DATA</text>
+  <text x="400" y="1030" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#94a3b8">Doc SHA256: 7f8a9b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a</text>
+</svg>
